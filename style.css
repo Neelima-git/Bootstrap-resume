@@ -28,6 +28,7 @@ h3{
 }
 .card{
     border-radius: 0;
+    background: rgb(255, 255, 255, 0.5);
     box-shadow: 5px 5px 15px #e74c3c;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
@@ -72,9 +73,9 @@ table{
 .card2{
     background: rgb(255, 255, 255, 0.2);
     box-shadow: 5px 5px 15px #e74c3c;
- 
+}.card2 h2{
+    color: rgb(65, 62, 62);
 }
-
 
 @media screen and (max-width: 480px) {
     body {
